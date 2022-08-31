@@ -5,6 +5,7 @@
     --text-secondary: #ececee;
     --bg-primary: #23232e;
     --bg-secondary: #141418;
+    --transition-speed: 600ms;
 }
 
 body {
