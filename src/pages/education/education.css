@@ -1,10 +1,12 @@
-/*
 .imgHeader {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 40%;
+    left: 40%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
 }
 
+/*
 .imgContainer {
     position: absolute;
     left: 50%;
@@ -13,6 +15,10 @@
     transform: translate(-50%, -50%);
 }
 */
+.roadmap {
+    margin: auto;
+    display: block;
+}
 
 .blob {
     position: absolute;
@@ -34,8 +40,19 @@
 
 .column {
     float: left;
-    width: 33.33%;
+    height: 100vh;
 }
+
+.left, .right {
+    width: 25%;
+}
+  
+.middle {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+  
 
 /* Clear floats after the columns */
 .row:after {
@@ -59,4 +76,32 @@
 .education-header {
     text-align: center;
     padding: 5vh;
+}
+
+.svg-profile {
+    width: 2.5%;
+    height: 2.5%;
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+    color: var(--button);
+    filter: grayscale(25%) opacity(0.7);
+}
+
+.svg-profile:hover {
+    filter: grayscale(25%) opacity(1);
+}
+
+.contact-wrapper {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.svg-wrapper {
+    text-align: center;
+}
+
+.contact-header {
+    text-align: center;
 }

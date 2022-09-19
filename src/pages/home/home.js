@@ -68,6 +68,8 @@ function Profile() {
                     </div>
                 </div>
             </div>
+
+            
             <div className='contact-wrapper'>
             <div>
                 <h1 className='contact-header'>Contact</h1>
