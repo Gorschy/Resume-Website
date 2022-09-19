@@ -6,6 +6,17 @@
     --bg-primary: #23232e;
     --bg-secondary: #141418;
     --transition-speed: 600ms;
+
+    --background-primary:#16161a;
+    --button: #7f5af0;
+    --headline: #fffffe;
+    --button-text: #fffffe;
+    --paragraph: #94a1b2;
+
+    --background-secondary: #242629;
+    --card-background: #16161a;
+    --sub-heading: #94a1b2;
+    --card-paragraph: #94a1b2;
 }
 
 body {
@@ -30,9 +41,20 @@ body::-webkit-scrollbar-thumb {
 main {
     margin-left: 5rem;
     padding: 1rem;
+    background-color: var(--background-secondary);
+    min-height: 100vh;
+}
+
+h1, h2, h3, h4 {
+    color: var(--headline);
+}
+
+p {
+    color: var(--card-paragraph);
 }
 
 
+/*Get from fireship navbar video */
 @media only screen and (max-width: 600px){
 
 }

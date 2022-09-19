@@ -47,7 +47,7 @@
 }
 
 .nav-link svg {
-    min-width: 2rem;
+    min-width: 2.5rem;
     margin: 0 1.5rem;
 }
 
@@ -60,11 +60,11 @@
 }
 
 .fa-primary {
-    color: #ff7eee;
+    color: var(--button);
 }
 
 .fa-secondary {
-    color: #df49a6;
+    color: var(--button);
 }
 
 .fa-primary,
