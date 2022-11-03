@@ -3,6 +3,8 @@
     overflow: hidden;
     max-width: 624px;
     position: relative;
+    border-left: 2vw solid rgba(127, 90, 240, 0.7);
+    border-right: 2vw solid rgba(127, 90, 240, 0.7);
 }
 
 .carousel-inner {
@@ -20,8 +22,8 @@
     border: none;
     display: inline-block;
     position: absolute;
-    height: 50px;
-    width: 70px;
+    height: 10%;
+    width: 14%;
     top: calc(50% - 25px);
     color: #f3f3f3;
     cursor: pointer;

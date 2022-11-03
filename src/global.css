@@ -1,0 +1,44 @@
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #b6b6bb;
+    --text-secondary: #ececee;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+
+    --background-primary:#16161a;
+    --button: #7f5af0;
+    --headline: #fffffe;
+    --button-text: #fffffe;
+    --paragraph: #94a1b2;
+
+    --background-secondary: #242629;
+    --card-background: #16161a;
+    --sub-heading: #94a1b2;
+    --card-paragraph: #94a1b2;
+}
+
+h1, h2, h3, h4 {
+    color: var(--headline);
+}
+
+p {
+    color: var(--card-paragraph);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-primary); 
+}
+
+main {
+    width: 100%;
+    height: 100%;
+}
+
+th, td {
+    color: var(--card-paragraph);
+    width: 75vw;
+}

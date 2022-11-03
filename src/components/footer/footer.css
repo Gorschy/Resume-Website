@@ -1,0 +1,42 @@
+footer {
+  background-color: #121315;
+
+}
+
+.svg-wrapper {
+  text-align: center;
+}
+
+/*Clamp touch up at some point*/
+.svg-profile {
+    width: clamp(45px, 3%, 55px);
+    height: clamp(45px, 3%, 55px);
+    color: var(--button);
+    filter: grayscale(25%) opacity(0.7);
+    margin-top: 1%;
+}
+
+
+.svg-profile:hover {
+  filter: grayscale(25%) opacity(1);
+}
+
+.copyright {
+  padding: 0.3em 1em;
+  background-color: #25262e;
+}
+
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+}
+
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+  footer {
+    margin-bottom: 5rem;
+  }
+}
+
